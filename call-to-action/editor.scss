@@ -1,0 +1,26 @@
+//@import '../../themes/national-university-hotb/src/scss/00_base/variables/colors/brand-colors';
+//@import '../../themes/national-university-hotb/src/scss/00_base/variables/colors/utility-colors';
+///* Temporary solution to get the btn classes working in the admin */
+//@import '../../themes/national-university-hotb/src/scss/00_base/placeholders/button.scss';
+//@import '../../themes/national-university-hotb/src/scss/00_base/bootstrap-overrides';
+//@import '../../themes/national-university-hotb/src/scss/01_atoms-elements/buttons';
+
+
+.wp-block-customberg-call-to-action {
+
+    padding: 1rem;
+
+    &__text {
+        color: white;
+    }
+
+    &.has-background-image {
+        /* trying to avoid a pseudo element if possible */
+        background-blend-mode: multiply;
+        //background-color: rgba($color-brand-primary, .7);
+    }
+
+    &.no-background-image {
+        //background-color: $color-brand-primary;
+    }
+}

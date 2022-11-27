@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "customberg/large-numbered-list",
+    "version": "0.1.0",
+    "title": "Large Numbered List",
+    "category": "customberg",
+    "icon": "editor-ul",
+    "description": "A custom large, blue numbered list with multiple Heading + Paragraph inner blocks.",
+    "supports": {
+        "html": false
+    },
+    "textdomain": "customberg",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
+}

@@ -1,0 +1,38 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "customberg/call-to-action",
+    "version": "0.1.0",
+    "title": "Call to Action",
+    "category": "customberg",
+    "icon": "megaphone",
+    "description": "Call to Action.",
+    "attributes": {
+        "text": {
+            "type": "string",
+            "default": "Start Your Application Today"
+        },
+        "backgroundImage": {
+            "type": "string",
+            "default": null
+        },
+        "layout": {
+            "type": "string"
+        }
+    },
+    "supports": {
+        "html": false,
+        "variation": [
+            "one-button",
+            "two-buttons"
+        ],
+        "focusedInput": [
+            "one",
+            "two"
+        ]
+    },
+    "textdomain": "customberg",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
+}

@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "customberg/factoids",
+	"version": "0.1.0",
+	"title": "Factoids",
+	"category": "customberg",
+	"icon": "editor-insertmore",
+	"description": "Block with three factoids, each with an icon, a title, and a subtitle.",
+	"attributes": {
+		"items": {
+			"type": "array",
+			"default": [
+				{
+					"icon":  "monitor.svg",
+					"title":  "First title!",
+					"subtitle": "Contents for first factoid"
+				},
+				{
+					"icon":  "calendar.svg",
+					"title":  "Second title!",
+					"subtitle": "Contents for second factoid"
+				},
+				{
+					"icon":  "graduation.svg",
+					"title":  "Third title!",
+					"subtitle": "Contents for third factoid"
+				}
+			]
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "customberg",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,36 @@
+:where(.wp-block)[data-align=center] > * {
+  text-align: center;
+}
+
+.wp-block-customberg-blue-button {
+  &.alignleft {
+    text-align: left;
+  }
+
+  &.alignright {
+    text-align: right;
+  }
+
+  &.aligncenter {
+    text-align: center;
+  }
+
+  .blue-button {
+    background-color: #ffbe13;
+    border-radius: 4px;
+    color: #173761;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    transition: color .3s ease-in-out,background-color .3s ease-in-out;
+
+    &:hover {
+      background-color: #173761;
+      color: #fff;
+      text-decoration: none;
+    }
+
+  }
+}

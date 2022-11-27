@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "customberg/program-at-a-glance-row",
+	"parent": [ "customberg/program-at-a-glance" ],
+	"version": "0.1.0",
+	"title": "Program at a Glance - Row",
+	"category": "customberg",
+	"icon": "editor-break",
+	"attributes": {
+		"item": {
+			"type": "string"
+		},
+		"value": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "customberg"
+}

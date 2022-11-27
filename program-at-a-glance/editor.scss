@@ -1,0 +1,18 @@
+@import "./style";
+
+.wp-block-customberg-program-at-a-glance {
+  max-width: 700px !important;
+
+  .wp-block-customberg-program-at-a-glance-row {
+    margin: 0;
+
+    .wp-block {
+      margin: 0;
+    }
+  }
+
+  p.disclaimer {
+    margin: 24px 0;
+    font-size: 0.75rem;
+  }
+}

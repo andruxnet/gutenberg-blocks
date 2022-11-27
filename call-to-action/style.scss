@@ -1,0 +1,27 @@
+//@import '../../themes/national-university-hotb/src/scss/00_base/variables/colors/brand-colors';
+//@import '../../themes/national-university-hotb/src/scss/00_base/variables/colors/utility-colors';
+
+.wp-block-customberg-call-to-action {
+    overflow: hidden;
+    padding: 1rem;
+
+    &__text {
+        color: white;
+    }
+
+    &.has-background-image {
+        /* trying to avoid a pseudo element if possible */
+        background-blend-mode: multiply;
+        //background-color: rgba($color-brand-primary, .7);
+    }
+
+    &.no-background-image {
+        //background-color: $color-brand-primary;
+    }
+
+    .is-style-outline {
+        .has-text-color {
+            border-color: currentColor;
+        }
+    }
+}

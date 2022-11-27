@@ -1,0 +1,66 @@
+.wp-block-columns {
+  display: flex;
+  // max-width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wp-block-customberg-factoids {
+  margin-top: -50px;
+  margin-bottom: 50px;
+
+  &__wrapper {
+    display: flex;
+    padding: 0 1rem;
+    background-color: #f8f8f8;
+
+    &__item {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 1em;
+      margin: 2rem 0;
+      border-left: 1px solid #ccc;
+      width: 33%;
+
+      > div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        max-width: 65%;
+      }
+
+      &:first-of-type {
+        border-left: none;
+      }
+
+      &__icon {
+        height: 60px;
+        width: 60px;
+        margin-bottom: 0.7rem;
+      }
+
+      &__menu-icon {
+        width: 25px;
+      }
+
+      &__title {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: .9rem;
+        color: #2C496F;
+        line-height: 1.1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      &__subtitle {
+        font-size: .75rem;
+        line-height: .9rem;
+        color: #92959B;
+      }
+    }
+  }
+}

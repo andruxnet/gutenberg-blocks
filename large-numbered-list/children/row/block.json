@@ -1,0 +1,22 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "customberg/large-numbered-list-row",
+    "parent": [ "customberg/large-numbered-list" ],
+    "version": "0.1.0",
+    "title": "Large Numbered List - Row",
+    "category": "customberg",
+    "icon": "editor-break",
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "paragraph": {
+            "type": "string"
+        }
+    },
+    "supports": {
+        "html": false
+    },
+    "textdomain": "customberg"
+}

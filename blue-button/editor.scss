@@ -1,0 +1,9 @@
+.page-header-link-control {
+    .block-editor-url-popover__row {
+        /* Styling the <p> tag I added with a reminder that this needs to be a full URL */
+        flex-direction: column;
+        > p {
+            margin: 16px 17px -12px 17px;
+        }
+    }
+}

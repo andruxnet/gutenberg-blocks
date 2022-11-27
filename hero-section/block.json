@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "customberg/hero-section",
+	"version": "0.1.0",
+	"title": "Hero Section",
+	"category": "customberg",
+	"icon": "desktop",
+	"description": "Hero section block to be added to the top of a page.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "customberg",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

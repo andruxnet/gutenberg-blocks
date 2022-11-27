@@ -1,0 +1,123 @@
+.wp-block-customberg-program-at-a-glance.wp-block-customberg-program-at-a-glance {
+  max-width: 700px;
+  padding: 0 15px;
+  color: #4d535b;
+  background-color: #e3e5e6;
+
+  @media screen and (min-width: 600px) {
+    padding: 0.625rem 3rem;
+  }
+
+  .wp-block-customberg-program-at-a-glance-row {
+    border-bottom: 1px dashed #74808a;
+    padding: 10px 0;
+
+    .wp-block-columns {
+      max-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+
+      @media screen and (min-width: 600px) {
+        flex-wrap: nowrap;
+      }
+
+      .wp-block-column {
+        padding: 2px 0;
+
+        @media screen and (min-width: 600px) {
+          padding: 0;
+        }
+
+        .wp-block-customberg-simple-rich-text {
+          &.column-desc {
+            font-style: italic;
+          }
+
+          &.column-value {
+            font-weight: bold;
+          }
+        }
+
+        &:nth-of-type(1) {
+
+          @media screen and (min-width: 600px) {
+            flex: 1 0 60% !important;
+          }
+
+          @media screen and (min-width: 782px) {
+            flex: 1 0 40% !important;
+          }
+        }
+
+        &:nth-of-type(2n) {
+          flex: 1 5 min-content;
+        }
+      }
+    }
+  }
+
+  h2,
+  h3,
+  p {
+    color: #4d535b;
+  }
+
+  h2 {
+    font-weight: 400;
+    margin: 24px 0;
+    font-family: "Leitura News Roman", Arial;
+    font-size: clamp(1.65rem, 1.3406rem + 1.375vw, 2.2rem);
+    line-height: 1.8rem;
+
+    @media screen and (min-width: 576px) {
+      line-height: 2.2rem;
+    }
+  }
+
+  h3 {
+    margin: 24px 0;
+    font-weight: 400;
+    font-family: "HK Grotesk", Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+
+    @media screen and (min-width: 576px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  p {
+    width: auto !important;
+    margin: 0;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    font-style: normal !important;
+    font-weight: 400;
+
+    @media screen and (min-width: 576px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  .disclaimer {
+    p {
+      margin: 24px 0;
+      font-size: 0.75rem;
+    }
+  }
+
+  &.is-style-blue {
+    color: white;
+    background-color: #173761;
+
+    h2,
+    h3,
+    p {
+      color: white;
+    }
+
+    &-row {
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.75);
+    }
+  }
+}
